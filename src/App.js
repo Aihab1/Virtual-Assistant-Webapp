@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import alanBtn from '@alan-ai/alan-sdk-web';
-import * as functions from 'firebase-functions'
 
 import wordsToNumbers from 'words-to-numbers';
 
 import NewsCards from './components/NewsCards/NewsCards';
 import useStyles from './styles.js';
 
-const alanKey = functions.config().alankey.secret;
+const alanKey = process.env.REACT_APP_SECRET_KEY;
 
 const App = () => {
   const [newsArticles, setNewsArticles] = useState([]);
