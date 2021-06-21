@@ -7,7 +7,7 @@ import wordsToNumbers from 'words-to-numbers';
 import NewsCards from './components/NewsCards/NewsCards';
 import useStyles from './styles.js';
 
-const alanKey = functions.config().alanKey.secret;
+const alanKey = functions.config().alankey.secret;
 
 const App = () => {
   const [newsArticles, setNewsArticles] = useState([]);
