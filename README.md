@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <a href="https://gokeyboardless.herokuapp.com/">
+    gokeyboardless.herokuapp.com
+  </a>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">A multipurpose <a href="https://gokeyboardless.herokuapp.com/">website</a> built with <a href="https://reactjs.org/">React</a> and integrated with <a href="https://alan.app/">Alan AI</a> (Virtual Assistant).</p>
 
-## Available Scripts
+![Image1](https://user-images.githubusercontent.com/55903466/122777487-b6ad4400-d2c9-11eb-8470-d2eb08317660.png)
+![Image2](https://user-images.githubusercontent.com/55903466/122777501-b90f9e00-d2c9-11eb-8a7d-1f309734cde1.png)
 
-In the project directory, you can run:
+## 👑 Features
+1. Chat with the virtual assistant.
+2. Search news by categories, get news on specific topics or from different sources using voice commands.
+3. Get weather forecasts and predictions for any place.
+4. Convert bitcoin to currency, ask questions about bitcoin, get price fluctuations over a certain period etc.
+> More public APIs to be added soon.
 
-### `yarn start`
+## 🛠 Creating your own website
+### Installation
+1. **Download <a href="https://nodejs.org/en/download/">Node.js</a>**
+2. **Install dependencies**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   ```sh
+   npm install
+   ```
+### Running
+1. **Serving the site locally**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   ```sh
+   npm start
+   ```
+### Adding new features/ using other APIs:
+1. Read Alan AI's <a href="https://alan.app/docs/">Documentation</a>.
+2. Learn how to use <a href="https://studio.alan.app/">Alan Studio</a>.
+3. Search for some useful <a href="https://github.com/public-apis/public-apis">APIs</a>.
+4. Implement features in the Alan studio and connect it with the react app.
+> Thanks to <a href="https://www.linkedin.com/in/adrian-hajdin-44040a158/">Adrian Hajdin</a> for his wonderful tutorials on Alan AI API and React.js. You can visit his <a href="https://github.com/adrianhajdin">github</a> to learn more.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Hosting
+Since this is a static website making use of APIs, deploying the react.js site directly to firebase or other platforms may expose your API keys. You may want to connect your react app to a backend (Node.js) and use SECRET_KEYS there. Here's a <a href="https://www.educative.io/edpresso/how-to-deploy-react-app-to-heroku">tutorial</a> which can get you started.
+> Stuck with deployment? Contact me!
+<hr></hr>
+Finally, check out the website on <a href="https://gokeyboardless.herokuapp.com/">Heroku</a>.
