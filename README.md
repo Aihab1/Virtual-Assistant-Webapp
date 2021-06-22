@@ -1,15 +1,20 @@
 <h1 align="center">
-  <a href="https://gokeyboardless.herokuapp.com/">
-    gokeyboardless.herokuapp.com
+  <a href="https://yourdonna.herokuapp.com/">
+    yourdonna.herokuapp.com
   </a>
 </h1>
 
-<p align="center">A multipurpose <a href="https://gokeyboardless.herokuapp.com/">website</a> built with <a href="https://reactjs.org/">React</a> and integrated with <a href="https://alan.app/">Alan AI</a> (Virtual Assistant).</p>
+<p align="center">A multipurpose <a href="https://yourdonna.herokuapp.com/">website</a> built with <a href="https://reactjs.org/">React</a> and integrated with <a href="https://alan.app/">Alan AI</a> (Virtual Assistant).</p>
+
+<p align="center">It's Donna, only with a manly voice! She knows everything. (He*)</p>
 
 ![Image1](https://user-images.githubusercontent.com/55903466/122777487-b6ad4400-d2c9-11eb-8470-d2eb08317660.png)
 ![Image2](https://user-images.githubusercontent.com/55903466/122777501-b90f9e00-d2c9-11eb-8a7d-1f309734cde1.png)
 
 ## 👑 Features
+![donna-knows-everything](https://user-images.githubusercontent.com/55903466/122892117-bf058d80-d362-11eb-81e8-67eb7582126d.gif)
+
+Don't go on saying this Donna doesn't know anything. Here's what you can do:
 1. Chat with the virtual assistant.
 2. Search news by categories, get news on specific topics or from different sources using voice commands.
 3. Get weather forecasts and predictions for any place.
@@ -41,4 +46,4 @@
 Since this is a static website making use of APIs, deploying the react.js site directly to firebase or other platforms may expose your API keys. You may want to connect your react app to a backend (Node.js) and use SECRET_KEYS there. Here's a <a href="https://www.educative.io/edpresso/how-to-deploy-react-app-to-heroku">tutorial</a> which can get you started.
 > Stuck with deployment? Contact me!
 <hr></hr>
-Finally, check out the website on <a href="https://gokeyboardless.herokuapp.com/">Heroku</a>.
+Finally, check out the website on <a href="https://yourdonna.herokuapp.com/">Heroku</a>.
