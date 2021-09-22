@@ -8,6 +8,13 @@
 
 <p align="center">It's Donna, only with a manly voice! She knows everything. (He*)</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+</p>
+
 ![Image1](https://user-images.githubusercontent.com/55903466/122777487-b6ad4400-d2c9-11eb-8470-d2eb08317660.png)
 ![Image2](https://user-images.githubusercontent.com/55903466/122777501-b90f9e00-d2c9-11eb-8a7d-1f309734cde1.png)
 
