@@ -14,9 +14,9 @@ const allCards = [
             { color: '17, 34, 64', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Give me the news from CNN' }]
     },
     {
-        title: 'General Chat.',
+        title: 'Sudoku Solver & General Chat.',
         infoCards: [
-            { color: '17, 34, 64', title: 'Intro', text: 'Hello, what\'s up? or How are you?' },
+            { color: '17, 34, 64', title: 'Sudoku Solver', text: 'Take me to the sudoku solver app' },
             { color: '17, 34, 64', title: 'Small Talk', text: 'Talk to me' },
             { color: '17, 34, 64', title: 'About the Assistant', text: 'Who are you? or Where did you get your accent?' },
             { color: '17, 34, 64', title: 'Piece of Advice', text: 'I need an advice' }]

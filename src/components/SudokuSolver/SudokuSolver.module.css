@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.sudoku {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #64ffda;
+  border-radius: 5px;
+}
+
+.sudoku.disabled {
+  pointer-events: none;
+}
+
+.row {
+  display: flex;
+}
+
+.row:nth-child(3),
+.row:nth-child(6) {
+  border-bottom: 2px solid #64ffda;
+}
+
+.partition {
+  width: 2px;
+  background: #64ffda;
+}
+
+.cell {
+  width: 7vw;
+  height: 7vw;
+  max-width: 50px;
+  max-height: 50px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background: #0a192f;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+  caret-color: transparent;
+}
+
+.cell.selected {
+  background: rgb(13, 63, 120);
+}
+
+.cell.solved {
+  color: rgb(15, 197, 15);
+}
+
+.cell:hover {
+  opacity: 0.7;
+}
+
+.cell:disabled, .cell:disabled:hover {
+  background: #0a192f;
+  color: #64ffda;
+  color: rgb(83, 162, 251);
+  cursor: default;
+  opacity: 1;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  border: 2px solid #64ffda;
+  outline: none;
+  transition: all 0.1s ease-in;
+  padding: 10px 25px;
+  font-size: 1.2rem;
+  background: none;
+  border-radius: 5px;
+  color: #e6f1ff;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #64ffda;
+  color: #0a192f;
+}
