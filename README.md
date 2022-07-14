@@ -27,6 +27,7 @@ Don't go on saying this Donna doesn't know anything. Here's what you can do:
 3. Get weather forecasts and predictions for any place.
 4. Convert bitcoin to currency, ask questions about bitcoin, get price fluctuations over a certain period etc.
 > More public APIs to be added soon.
+5. Solve/ generate sudoku using voice.
 
 ## 🛠 Creating your own website
 ### Installation
