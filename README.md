@@ -21,7 +21,7 @@
 ## 👑 Features
 ![donna-knows-everything](https://user-images.githubusercontent.com/55903466/122892117-bf058d80-d362-11eb-81e8-67eb7582126d.gif)
 
-Don't go on saying this Donna doesn't know anything. Here's what you can do:
+Don't go about saying this Donna doesn't know anything. Here's what you can do:
 1. Chat with the virtual assistant.
 2. Search news by categories, get news on specific topics or from different sources using voice commands.
 3. Get weather forecasts and predictions for any place.
