@@ -26,8 +26,8 @@ Don't go about saying this Donna doesn't know anything. Here's what you can do:
 2. Search news by categories, get news on specific topics or from different sources using voice commands.
 3. Get weather forecasts and predictions for any place.
 4. Convert bitcoin to currency, ask questions about bitcoin, get price fluctuations over a certain period etc.
+5. Solve/ generate sudoku board using voice.
 > More public APIs to be added soon.
-5. Solve/ generate sudoku using voice.
 
 ## 🛠 Creating your own website
 ### Installation
